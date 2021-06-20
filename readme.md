@@ -1,4 +1,7 @@
-# instalación 
+# instalación de modulos 
+    `npm install`
+
+# instalación de inicio de webpack
     `npm i -D webpack webpack-cli`
 
 # version de node de este curso 
@@ -6,8 +9,8 @@
 
 # primeros pasos webpack CONFIGUARCION
 1. crea la carpeta src con el archivo index.js
-2. crea script para desarrolo y produción con los modos
-   1. "dev": --mode desarrolo
+2. crea script para desarrollo y produción con los modos
+   1. "dev": --mode desarrollo
    2. "build": --mode developement
 
 # Diferentes puntos de entrada y salida en el script 
