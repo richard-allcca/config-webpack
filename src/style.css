@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Baloo Tammudu 2";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/BalooTammudu2-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Baloo Tammudu 2";
+  font-size: 16px;
+  background-color: hsl(201, 21%, 21%);
+  color: #8dd6f9;
+  background-image: url(./assets/ella.jpg);
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: hsla(150, 10%, 30%); */
+}
+img {
+  width: 80%;
+  height: 1rem auto;
+}
+
+.icon {
+  max-width: 4rem;
+}
+a {
+  color: hsl(201, 21%, 51%);
+}
+.menu {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
